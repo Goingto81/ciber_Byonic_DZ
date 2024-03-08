@@ -4,6 +4,8 @@
       на клік за посиланням red, green, blue. Під час натискання на посилання має змінюватися колір параграфа на червоний, зелений або синій.
       Використовуйте замикання в обробниках.
       */
+"use strict";
+
 function makeSizer(size) {
   return function () {
     document.body.style.fontSize = size + "px";
@@ -16,13 +18,13 @@ function makeColorChanger(color) {
   };
 }
 
-let size16 = makeSizer(16);
-let size24 = makeSizer(24);
-let size32 = makeSizer(43);
+const size16 = makeSizer(16);
+const size24 = makeSizer(24);
+const size32 = makeSizer(43);
 
-let redColor = makeColorChanger("red");
-let greenColor = makeColorChanger("green");
-let blueColor = makeColorChanger("blue");
+const redColor = makeColorChanger("red");
+const greenColor = makeColorChanger("green");
+const blueColor = makeColorChanger("blue");
 
 document.querySelector("#size-16").onclick = size16;
 document.querySelector("#size-24").onclick = size24;

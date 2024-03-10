@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 05</title>
-</head>
+    <script defer src="./js/05-task.js"></script>
+  </head>
 
-<body>
+  <body>
     <script>
-        /*
+      /*
         Завдання:
         Перепишіть клас Numbers, використовуючи шаблон "Модуль".
         Поля values і threshold мають бути закриті в модулі та зберігатися у замиканні.
@@ -21,33 +21,32 @@
         ключове слово class.
         */
 
-        class Numbers {
-            #values;
-            #threshold;
+      //   class Numbers {
+      //     #values;
+      //     #threshold;
 
-            constructor(threshold, values) {
-                this.#values = values;
-                this.#threshold = threshold;
-            }
+      //     constructor(threshold, values) {
+      //       this.#values = values;
+      //       this.#threshold = threshold;
+      //     }
 
-            // Повертає всі значення з масиву значення, які більші за значення змінної threshold.
-            getGreaterThanThreshold() {
-                return this.#values.filter(v => v > this.#threshold);
-            }
+      // Повертає всі значення з масиву значення, які більші за значення змінної threshold.
+      // getGreaterThanThreshold() {
+      //   return this.#values.filter((v) => v > this.#threshold);
+      // }
 
-            // Повертає всі значення з масиву values, які менші за значення змінної threshol.d 
-            getLessThanThreshold() {
-                return this.#values.filter(v => v < this.#threshold);
-            }
-        }
+      // Повертає всі значення з масиву values, які менші за значення змінної threshol.d
+      //     getLessThanThreshold() {
+      //       return this.#values.filter((v) => v < this.#threshold);
+      //     }
+      //   }
 
-        let numbers = new Numbers(50, [10, 20, 23, 11, 5, 6, 90, 33, 45, 67]);
-        let gt = numbers.getGreaterThanThreshold();
-        let lt = numbers.getLessThanThreshold();
+      //   let numbers = new Numbers(50, [10, 20, 23, 11, 5, 6, 90, 33, 45, 67]);
+      //   let gt = numbers.getGreaterThanThreshold();
+      //   let lt = numbers.getLessThanThreshold();
 
-        console.log(gt);
-        console.log(lt);
+      //   console.log(gt);
+      //   console.log(lt);
     </script>
-</body>
-
+  </body>
 </html>

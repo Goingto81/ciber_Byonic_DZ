@@ -1,0 +1,11 @@
+li {
+  list-style-type: none;
+  border: 1px solid red;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+li:nth-child(2n) {
+  background-color: #c1bbbb;
+}

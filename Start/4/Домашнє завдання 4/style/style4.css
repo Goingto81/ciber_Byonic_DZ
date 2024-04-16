@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-bottom: 1px solid DimGray;
+}
+
+span {
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* style="order: 1" */

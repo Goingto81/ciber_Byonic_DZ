@@ -1,0 +1,61 @@
+/* Завдання 5
+Створити сторінку з різними змінами шрифту, підключивши окремий файл CSS.
+
+    Вгорі біля заголовку першого рівня текст по центру та сімейство шрифту виставлено Arial, фон світло-сірого кольору.
+    У всіх заголовків нижче є нижнє підкреслення.
+    У "Заголовку посту 1" є відступи між словами.
+    У "Заголовку посту 2" є відступи між літерами.
+    Під заголовками розмістити звичайний текст, загорнутий у параграф 
+    (колір фону можна будь-який за бажанням) і стилізувати таким чином, 
+    як підказує текст у ньому (всі зміни мають бути виконані стилями, а не тегами).
+    Кнопка під текстом шириною 100 пікселів, текст по горизонталі та по вертикалі знаходиться по центру.1 В останній кнопці текст притиснутий до правої сторони. */
+
+body {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Arial;
+  text-align: center;
+  background-color: rgb(209, 207, 207);
+  padding: 20px 0 20px 0;
+}
+
+h2 {
+  text-decoration: underline;
+  word-spacing: 10px;
+}
+
+em {
+  font-size: 30px;
+}
+
+.green {
+  background-color: greenyellow;
+}
+
+.blue {
+  background-color: rgb(134, 218, 246);
+}
+
+.pink {
+  background-color: pink;
+}
+
+.button {
+  background-color: hsl(0, 5%, 84%);
+  padding: 11px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+.button-right {
+  background-color: hsl(0, 5%, 84%);
+  padding: 11px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-align: right;
+  padding: 11px 0 11px 11px;
+}

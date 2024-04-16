@@ -1,0 +1,20 @@
+p {
+  border: 1px solid black;
+}
+
+li {
+  border: 1px solid black;
+}
+
+.navigation {
+  box-sizing: border-box;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.border-list li {
+  background-color: #e5e5e5;
+  border: 1px solid red;
+  list-style-type: none;
+  padding: 10px;
+}

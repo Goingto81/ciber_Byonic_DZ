@@ -1,0 +1,19 @@
+body {
+  background-color: hsl(36, 81%, 67%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.photo {
+  height: 600px;
+  width: 600px;
+  min-width: 200px;
+  min-height: 200px;
+  margin: 0 auto;
+  box-shadow: inset 0 0 1px 1px black;
+  border-radius: 50%;
+  background: url("/img/cat.jpg") no-repeat center;
+}

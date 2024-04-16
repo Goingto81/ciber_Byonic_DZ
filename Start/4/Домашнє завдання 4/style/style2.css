@@ -1,0 +1,18 @@
+body {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  border: 2px solid #d6cfdc;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 28%;
+  box-shadow: 0px 0px 5px 5px rgb(227, 225, 225);
+  /* border: 2px solid red; */
+  padding: 20px;
+  margin: 10px;
+}

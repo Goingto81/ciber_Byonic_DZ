@@ -1,0 +1,96 @@
+.map {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  /* background-color: lightgray; */
+  background-image: url(./02.png);
+  background-repeat: no-repeat;
+}
+
+.city {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  animation: pulse 1s infinite alternate;
+  color: rgb(50, 134, 68);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.city::before {
+  content: attr(data-city-name);
+
+  margin-left: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+#city1 {
+  top: 156px;
+  left: 181px;
+}
+
+#city2 {
+  top: 51px;
+  left: 204px;
+}
+
+#city3 {
+  top: 85px;
+  left: 290px;
+}
+
+#city4 {
+  top: 203px;
+  left: 60px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.1);
+  }
+  10% {
+    transform: scale(0.2);
+  }
+  20% {
+    transform: scale(0.3);
+  }
+  25% {
+    transform: scale(0.4);
+  }
+  35% {
+    transform: scale(0.5);
+  }
+  50% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(0.6);
+  }
+}
+
+.ticket-popup {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px;
+  /* background-color: white; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 0.4083684499190301) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(223, 174, 70);
+}
+
+.city:hover {
+  animation-play-state: paused;
+}

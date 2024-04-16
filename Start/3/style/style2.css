@@ -1,0 +1,11 @@
+div {
+  border: 2px solid black;
+  text-align: right;
+}
+
+div p {
+  display: inline-block;
+  background-color: lightgray;
+  width: 300px;
+  margin: 10px 20px 10px 0;
+}

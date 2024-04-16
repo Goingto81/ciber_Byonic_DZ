@@ -1,0 +1,93 @@
+/* Завдання 7 */
+
+.container {
+  height: 600px;
+  width: auto;
+}
+
+.header {
+  display: block;
+  height: 100px;
+  max-width: 1500px;
+
+  background-color: rgb(128, 128, 128);
+}
+
+.img_it {
+  height: 100px;
+  width: 190px;
+  margin-left: 60px;
+  float: left;
+}
+.main_title {
+  float: left;
+  height: 60px;
+  width: 300px;
+  font-size: 11px;
+}
+.word {
+  font-size: 40px;
+  padding-top: 35px;
+}
+
+.contacts {
+  display: flex;
+  height: 100px;
+  float: right;
+}
+.dumb {
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.tephone,
+.support,
+.telegram {
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px 16px;
+  text-align: center;
+}
+
+.car {
+  height: 15px;
+  width: 15px;
+}
+
+.coco {
+  text-decoration: none;
+  color: white;
+}
+
+.but {
+  background-color: rgb(255, 183, 0);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.main {
+  text-align: center;
+  padding: 100px;
+}
+
+.bw {
+  color: rgb(255, 183, 0);
+  font-size: 50px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+.sw {
+  margin-bottom: 50px;
+}
+.but {
+  margin: 0 15px;
+  width: 200px;
+}

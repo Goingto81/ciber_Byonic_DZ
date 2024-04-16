@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Element</title>
+    <style>
+      .animated-element {
+        width: 100px; /* Початкова ширина квадрата */
+        height: 100px; /* Початкова висота квадрата */
+        background-color: blue; /* Початковий колір квадрата */
+        animation: moveAndChange 5s linear infinite; /* Анімація руху та зміни форми */
+      }
+
+      @keyframes moveAndChange {
+        0% {
+          width: 100px; /* Квадрат */
+          height: 100px;
+          border-radius: 0;
+        }
+        30% {
+          width: 200px; /* Горизонтальний прямокутник */
+          height: 100px;
+          border-radius: 0;
+          background-color: rgb(248, 198, 34);
+        }
+        60% {
+          width: 200px; /* Коло */
+          height: 200px;
+          border-radius: 50%;
+          background-color: rgb(88, 193, 84);
+        }
+        90% {
+          width: 100px; /* Вертикальний прямокутник */
+          height: 200px;
+          border-radius: 0;
+        }
+        100% {
+          width: 100px; /* Квадрат */
+          height: 100px;
+          border-radius: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animated-element"></div>
+  </body>
+</html>

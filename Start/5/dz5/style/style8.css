@@ -1,0 +1,15 @@
+table {
+  width: 300px;
+  height: 300px;
+  border-spacing: 5px;
+  text-align: center;
+}
+
+tr:nth-child(2n) {
+  background: rgb(201, 72, 72); /* Background color */
+}
+
+tr:nth-child(1) {
+  background: rgb(161, 128, 128); /* Background color */
+  color: #fff;
+}

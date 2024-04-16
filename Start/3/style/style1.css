@@ -1,0 +1,10 @@
+div {
+  background-color: blue;
+  padding: 20px;
+}
+
+div a {
+  color: white;
+  padding: 20px;
+  border-right: 5px solid black;
+}

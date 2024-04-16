@@ -1,0 +1,27 @@
+.container {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  background-color: #5ed5d5;
+  display: flex;
+  max-width: 500px;
+  justify-content: center;
+  padding: 20px;
+}
+.list-items {
+  padding: 20px;
+  font-size: 24px;
+}
+.list-item {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.list-item::before {
+  content: "♥";
+  background-color: red;
+  border-radius: 50%;
+  padding-right: 10px;
+  margin-right: 10px;
+  padding: 3px 7px 3px 7px;
+}

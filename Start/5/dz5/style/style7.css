@@ -1,0 +1,64 @@
+html {
+  /* margin: 0; */
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  padding-top: 140px;
+  text-transform: uppercase;
+}
+
+h2 {
+  padding: 0 0 0 45px;
+  text-transform: uppercase;
+}
+
+body {
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  text-align: center;
+}
+
+.img1 {
+  background: url(../img/1.png) left no-repeat;
+  background-size: contain;
+}
+
+.img2 {
+  background: url(../img/2.png) left no-repeat;
+  background-size: contain;
+}
+
+.img3 {
+  background: url(../img/3.png) left no-repeat;
+  background-size: contain;
+}
+
+.container {
+  /* display: flex; */
+  align-items: center;
+  background: url(../img/затемненний.png) top center no-repeat;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.items {
+  max-width: 18%;
+  padding-right: 20px;
+}
+
+p {
+  text-align: justify;
+}
